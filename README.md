@@ -24,4 +24,4 @@ Change "UPPER_LIMIT"(ex. UPPER_LIMIT = 150000) depanding on the price of your im
  - pip install --upgrade google-cloud google-cloud-vision
   - Exception: Image too large. Please limit to 75 megapixels.
 <br /><br />
-"# price_ocr_heatmap" 
+

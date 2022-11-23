@@ -1,4 +1,4 @@
-## OCR comparison & Price Distribution
+## Price Distribution
 Picture the merchandise stand with smartphone camera and visualize it's price distrubution. 
 Developed to instantly visualize if a stand is well displayed via prices. 
 Developed for merchandise displaying personnel.

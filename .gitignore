@@ -1,0 +1,46 @@
+!sample_result.jpg
+
+# Mac Files
+.DS_Store
+.localized
+.venv/
+
+# Python
+__pycache__/
+__result__/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+data_sample/
+
+performance_input(8500_50_50).jpg
+vision_jsonkey/
+
+# Paddle .gitignore
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+# C extensions
+*.so
+inference/
+inference_results/
+output/
+train_data/
+log/
+*.vs
+*.user
+*~
+*.vscode
+*.idea
+*.log
+.clang-format
+.clang_format.hook
+build/
+dist/
+paddleocr.egg-info/
+/deploy/android_demo/app/OpenCV/
+/deploy/android_demo/app/PaddleLite/
+/deploy/android_demo/app/.cxx/
+/deploy/android_demo/app/cache/
+test_tipc/web/models/
+test_tipc/web/node_modules/

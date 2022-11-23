@@ -6,7 +6,7 @@ import os
 import sys, os
 parent = os.path.abspath('.')
 sys.path.insert(1, parent)
-from ocr_func_vision import _list_files, _img_ocr_result, _heatmap_2, _ocr_result_process
+from ocr_func_vision import _list_files, _img_ocr_result, _heatmap_2, _ocr_result_process, _kmeanclustered
 
 
 UPPER_LIMIT = 150000
@@ -52,6 +52,10 @@ if not os.path.isdir(RESULT_DIR):
     os.mkdir(RESULT_DIR)
 print("Result is saved in the folder "+RESULT_DIR)
 
+
+
+""" preprocess """
+img = _kmeanclustered(img, 64)
 
 
 # https://cloud.google.com/vision/docs/ocr

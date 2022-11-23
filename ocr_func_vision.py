@@ -36,6 +36,18 @@ def _img_ocr_result(img, ocr_result, FONT_SIZE=10):
     return img
 
 
+# K-means Clustering
+def _kmeanclustered(img, KNUM=2):
+    img_2 = img.copy().reshape(-1, 3)
+    img_2 = np.float32(img_2)
+    criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 10, 1.0)
+    K = KNUM
+    ret, label, center = cv2.kmeans(img_2, K, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS )
+    center = np.uint8(center)
+    res = center[label.flatten()]
+    img = res.reshape((img.shape))
+    return img
+
 
 # radial heatmap
 def _heatmap_2(img, ocr_result):

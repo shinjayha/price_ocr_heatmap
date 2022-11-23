@@ -9,7 +9,7 @@ Developed for merchandise displaying personnel.
 
 
 ### Example Results
-![example](examples/sample_result.jpg)
+![example](examples/sample_result_2.jpg)
 <br /><br />
 
 

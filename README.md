@@ -22,6 +22,5 @@ Change "UPPER_LIMIT"(ex. UPPER_LIMIT = 150000) depanding on the price of your im
  - JSON key required. (https://cloud.google.com/vision/docs/before-you-begin)
  - pip install numpy pandas matplotlib opencv-python scipy
  - pip install --upgrade google-cloud google-cloud-vision
-  - Exception: Image too large. Please limit to 75 megapixels.
+ - Limit the image to 75 megapixels.
 <br /><br />
-
